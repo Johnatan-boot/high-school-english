@@ -1,0 +1,396 @@
+@import './styles/variables.css';
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  color: #121212;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+/* Cabeçalho */
+header {
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  border-bottom: 1px solid #ddd;
+  
+}
+
+.logo {
+  position: relative;
+  left: 70%;
+  top: 40px;
+  color: #1a3cff !important;
+}
+.logo:hover {
+  color: #0c2ccc;
+
+}
+
+
+nav a {
+  position: relative;
+  left: 750px;
+  display: inline-flex;
+  margin-left: 2rem;
+  text-decoration: none;
+  color: #222;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #1a3cff;
+}
+
+/* Hero section */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: #f8f9ff;
+}
+
+.hero-text  {
+  margin-left: 17%;
+  width: 300px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.hero-text-p {
+  width: 270px;
+  font-size: 1.2rem;
+  font-weight: 400;
+   margin-left: 17%;
+    color: #555;
+    margin-bottom: 1.5rem;
+}
+
+.hero-text-button {
+   margin-left: 17%;
+  background-color: #1a3cff;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.hero-text-button:hover {
+  background-color: #0c2ccc;
+}
+
+.hero-image{
+  position: relative;
+  left: 77.5%;
+  bottom: 245px;
+  width: 250px;
+  height: 250px;
+ 
+}
+
+ img {
+  position: relative;
+  right:95%;
+  top: 1px;
+  width: 330px;
+  height: 250px;
+}
+
+.steps {
+  position: relative;
+  bottom: 200px;
+  left: 3%;
+  width: 95%;
+  padding: 2rem 1rem;
+  background-color: #f8f9ff;
+}
+
+.step-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.step {
+  flex: 1;
+  max-width: 200px;
+}
+
+.step-number {
+  font-size: 1.5rem;
+  background-color: #1a3cff;
+  color: white;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  margin: 0 auto 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.step-number:hover {
+   background-color: #0c2ccc;
+
+}
+
+
+/* Sobre */
+.about {
+  position: relative;
+  bottom: 150px;
+   left: 3%;
+  width: 95%;
+  padding: 2rem;
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.about p {
+  max-width: 700px;
+  margin: 0 auto 2rem;
+  color: #444;
+}
+
+.courses {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 2rem 1rem;
+  background-color: #fff;
+}
+
+.course-card {
+  border: 1px solid #e3e3e3;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background-color: #f8f9ff;
+  width: 260px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+}
+
+.course-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #1a3cff;
+}
+
+.course-card p {
+  color: #666;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.course-card .price {
+  font-weight: bold;
+  color: #121212;
+  margin-bottom: 1rem;
+}
+
+.course-card button {
+  background-color: #1a3cff;
+  color: white;
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.course-card button:hover {
+  background-color: #0c2ccc;
+}
+
+.course-card {
+  position: relative;
+  bottom: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  border: 1px solid #e3e3e3;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background-color: #f8f9ff;
+  width: 260px;
+  min-height: 360px; /* define altura igual */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.course-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #1a3cff;
+}
+
+.course-card p {
+  color: #666;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.course-card .price {
+  font-weight: bold;
+  color: #121212;
+  margin-bottom: 1rem;
+}
+
+/* Alinha o botão no fim */
+.course-card button {
+  margin-top: auto;
+  background-color: #1a3cff;
+  color: white;
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.course-card button:hover {
+  background-color: #0c2ccc;
+}
+
+
+
+/* Página de agradecimento e pagamento */
+.confirmation {
+  padding: 2rem;
+  text-align: center;
+}
+
+.confirmation h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.confirmation p {
+  color: #444;
+  margin-bottom: 2rem;
+}
+
+.confirmation .price-summary {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.confirmation input {
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  width: 100%;
+  max-width: 300px;
+}
+
+.confirmation button {
+  background-color: #1a3cff;
+  color: #fff;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.confirmation button:hover {
+  background-color: #0c2ccc;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-img img {
+    margin-top: 1.5rem;
+  }
+
+  .courses {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav a {
+    margin-left: 1rem;
+  }
+
+  .steps {
+    flex-direction: column;
+  }
+}
+
+
+
+.footer {
+  background-color: #f8f9ff;
+  color: #121212;
+  padding: 2rem 1rem;
+  text-align: center;
+  border-top: 1px solid #ddd;
+}
+
+.footer-content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.footer h3 {
+  font-size: 1.5rem;
+  color: #1a3cff;
+  margin-bottom: 0.5rem;
+}
+
+.footer p {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #1a3cff;
+  font-weight: 500;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+

@@ -1,0 +1,97 @@
+🧩 Arquitetura do Projeto Web – Jacketalks
+🖥️ 1. Landing Page (Institucional e Atrativa)
+Hero animado com chamada para ação (CTA)
+
+Seção "Sobre a Jacketalks" com missão e pilares
+
+Seção "Como Funciona" (Passo 1 → Curso, Passo 2 → Agendamento, Passo 3 → Pagamento)
+
+Depoimentos animados
+
+Botões de acesso à Página de Cursos
+
+🏠 2. Home (opcional, se quiser separar da landing)
+Menu de navegação principal
+
+Destaques do mês (promoções, pacotes, professores)
+
+Chamadas rápidas: "Escolha seu curso", "Conheça nossos pacotes", "Agende sua aula"
+
+📚 3. Página de Cursos
+Cards animados de cursos com:
+
+Nome do curso/pacote
+
+Banner visual
+
+Descrição completa
+
+Preço
+
+Duração
+
+Botão “Adicionar ao Carrinho”
+
+Filtros por nível (Iniciante, Intermediário, Avançado)
+
+Botão “Ver Detalhes”
+
+📅 4. Página de Agendamento
+Exibe o curso selecionado
+
+Lista de professores disponíveis com:
+
+Nome + Foto + Especialidade
+
+Agenda com datas e horários disponíveis (integração com calendário)
+
+Aluno seleciona dia/horário → confirma disponibilidade
+
+💳 5. Página de Checkout
+Resumo do curso no carrinho
+
+Valor total e parcelamento
+
+Campos para cadastrar cartão
+
+Integração com Pagar.me via API
+
+Botão “Finalizar Compra”
+
+📬 6. Confirmação e Envio de E-mail
+Ao concluir a compra:
+
+Exibe tela de confirmação
+
+Envia e-mail automático com:
+
+Nome do curso
+
+Nome do professor e horário agendado
+
+Dados da compra
+
+Link para acessar sua área do aluno
+
+⚙️ Funcionalidades Técnicas
+Responsivo (TailwindCSS ou CSS Grid + Media Queries)
+
+Componentes reutilizáveis (Web Components ou framework SPA)
+
+Firebase para autenticação e agendamento (opcional)
+
+Backend em Node.js/Express para:
+
+Processar pagamentos com Pagar.me
+
+Enviar e-mails com NodeMailer ou serviço como SendGrid
+
+Gerenciar banco de dados (MongoDB, PostgreSQL ou Firebase)
+
+Deploy com Vercel/Netlify + painel administrativo (opcional)
+
+🔧 TECNOLOGIAS SUGERIDAS
+Frontend	Backend	Integrações
+Vue.js ou React	Node.js + Express	Pagar.me (pagamento)
+Tailwind CSS	MongoDB ou Firebase	Nodemailer (e-mail)
+Vite ou Next.js	Auth0 ou Firebase Auth	Calendly ou Agenda customizada

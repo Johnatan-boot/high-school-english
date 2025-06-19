@@ -1,0 +1,31 @@
+1. Planejamento (ou Levantamento de Requisitos)
+Objetivo: Entender e definir os requisitos do sistema.
+Atividades: Reuniões com stakeholders, levantamento das necessidades do usuário, definição de funcionalidades essenciais e escopo do projeto.
+Resultado: Documento de requisitos ou especificação funcional.
+2. Análise de Requisitos
+Objetivo: Analisar e detalhar os requisitos coletados para identificar as melhores soluções.
+Atividades: Elaboração de diagramas, fluxos de dados e definição das tecnologias a serem utilizadas.
+Resultado: Documento de especificação técnica e análise de viabilidade.
+3. Projeto (ou Arquitetura do Sistema)
+Objetivo: Planejar a estrutura do sistema, incluindo a arquitetura e o design das funcionalidades.
+Atividades: Criação de wireframes, mockups, diagramas de arquitetura e definição do banco de dados.
+Resultado: Documentação técnica de arquitetura e design, incluindo protótipos e planos de implementação.
+4. Desenvolvimento (ou Implementação)
+Objetivo: Codificar o sistema conforme os requisitos e design definidos nas etapas anteriores.
+Atividades: Programação de módulos, integração de sistemas, desenvolvimento de interfaces, etc.
+Resultado: Código-fonte do software, implementado em ambientes de desenvolvimento.
+5. Testes
+Objetivo: Garantir que o software funcione corretamente e atenda aos requisitos.
+Atividades: Testes unitários, testes de integração, testes de sistema, testes de aceitação do usuário.
+Resultado: Relatórios de bugs e falhas, com correções realizadas.
+6. Implantação (ou Deploy)
+Objetivo: Colocar o software em produção, tornando-o disponível para os usuários finais.
+Atividades: Configuração de servidores, migração de dados, instalação do sistema e ajustes finais.
+Resultado: Software disponível em ambiente de produção.
+7. Manutenção
+Objetivo: Garantir que o sistema continue funcionando corretamente após a implantação.
+Atividades: Correção de bugs, atualização de funcionalidades, melhorias e adaptação a novos requisitos.
+Resultado: Sistema atualizado e funcionando de acordo com as mudanças necessárias.
+8. Descontinuação (opcional)
+Objetivo: Quando o software não for mais necessário ou for substituído por uma nova versão.
+Atividades: Desativação do sistema, migração de dados

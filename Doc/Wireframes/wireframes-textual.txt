@@ -1,0 +1,86 @@
+[Header]
+- Logo à esquerda
+- Menu à direita: Cursos | Professores | Login
+
+[Hero Section]
+- Título grande: "Aprenda inglês com fluência"
+- Botão: [Ver cursos]
+
+[Cards de cursos]
+- 3 colunas com nome, imagem e botão "Matricule-se"
+
+🖥️ 1. Landing Page (Página Inicial)
+Seções:
+
+Topo (Navbar):
+
+Logo “Jacketalks”
+
+Menu: Cursos | Professores | Login
+
+Hero:
+
+Título: “Aprenda Inglês com Fluência”
+
+Subtítulo: “Cursos online com professores certificados”
+
+Botão: [Ver Cursos]
+
+Imagem/Ilustração destaque
+
+Como Funciona:
+
+Passo 1: Escolha seu curso
+
+Passo 2: Agende sua aula
+
+Passo 3: Pague com segurança
+
+Seção Sobre a Escola:
+
+Texto: “A Jacketalks é uma escola digital de inglês com metodologia conversacional, foco em resultados e experiência personalizada.”
+
+📚 2. Página de Cursos
+Elementos por Card:
+
+Imagem do curso (miniatura)
+
+Nome: “Inglês para Iniciantes”
+
+Descrição resumida: “Curso básico para quem está começando do zero”
+
+Preço: “R$ 297,00”
+
+Botão: [Adicionar ao Carrinho]
+
+Possui grade com 6 a 8 cards de cursos por categoria.
+
+🗓️ 3. Agendamento de Aula
+Nome do curso no topo
+
+Professor disponível: Foto + Nome
+
+Tabela com horários disponíveis:
+
+Segunda a sexta | 10h, 14h, 19h
+
+Botão: [Agendar Agora]
+
+💳 4. Checkout e Confirmação
+Detalhes de Pagamento:
+
+Campo: Número do Cartão
+
+Carrinho lateral:
+
+Curso: “Inglês Intermediário”
+
+Valor: “R$ 297,00”
+
+Botão: [Finalizar Compra]
+
+Confirmação de Compra:
+
+Título: “Obrigado pela sua inscrição!”
+
+Mensagem: “Você receberá um e-mail com os detalhes da sua aula.”

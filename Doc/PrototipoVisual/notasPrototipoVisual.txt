@@ -1,0 +1,18 @@
+🧪 ETAPA 1: Protótipo Simulado (Interações Navegáveis)
+🔁 Fluxo do Usuário:
+Landing Page
+➤ Clica em "Ver Cursos"
+
+Página de Cursos
+➤ Escolhe “Inglês Intermediário”
+➤ Clica em “Agendar”
+
+Agendamento
+➤ Escolhe professor e horário
+➤ Clica “Confirmar”
+
+Checkout
+➤ Insere dados de pagamento
+➤ Finaliza compra
+
+Tela de Confirmação + E-mail Automático

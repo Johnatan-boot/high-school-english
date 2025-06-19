@@ -1,0 +1,35 @@
+🧭 ETAPA 3: Arquitetura da Informação (AI)
+Aqui está o mapa de navegação do sistema Jacketalks:
+
+css
+Copiar
+Editar
+[ Landing Page ]
+     ↓
+[ Página de Cursos ]
+     ↓
+[ Agendamento de Aula ]
+     ↓
+[ Checkout ]
+     ↓
+[ Tela de Confirmação + E-mail ]
+📦 Estrutura de Diretórios sugerida:
+
+bash
+Copiar
+Editar
+/public
+  └── index.html
+  └── cursos.html
+  └── agendamento.html
+  └── checkout.html
+  └── obrigado.html
+
+/src
+  └── css/
+  └── js/
+  └── imgs/
+
+/api
+  └── pagarme.js
+  └── email.js

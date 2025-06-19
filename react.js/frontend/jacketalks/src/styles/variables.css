@@ -1,0 +1,52 @@
+:root {
+  /* Cores primárias */
+  --color-primary: #1a3cff;      /* Azul escuro */
+  --color-primary-light: #3A5A80;
+  --color-primary-dark: #162D45;
+  
+  /* Cores secundárias */
+  --color-secondary: #FDCB6E;    /* Amarelo dourado */
+  --color-secondary-light: #FEE191;
+  --color-secondary-dark: #D9A931;
+  
+  /* Cores de apoio/acento */
+  --color-accent: #55EFC4;       /* Verde água */
+  --color-accent-light: #80F0D4;
+  --color-accent-dark: #2FBEA1;
+  
+  /* Cores neutras */
+  --color-bg: #FFFFFF;           /* Fundo branco */
+  --color-text-primary: #1F2937; /* Cinza escuro */
+  --color-text-secondary: #4B5563; /* Cinza médio */
+  --color-text-light: #9CA3AF;   /* Cinza claro */
+  
+  /* Tipografia */
+  --font-family-base: 'Inter', sans-serif;
+  --font-family-heading: 'Poppins', sans-serif;
+  
+  /* Font sizes */
+  --font-size-base: 16px;
+  --font-size-sm: 14px;
+  --font-size-lg: 20px;
+  --font-size-xl: 24px;
+  --font-size-2xl: 32px;
+  --font-size-3xl: 40px;
+  
+  /* Espaçamentos */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  --spacing-2xl: 48px;
+  
+  /* Bordas */
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 16px;
+  
+  /* Sombra */
+  --shadow-light: 0 1px 3px rgba(0,0,0,0.1);
+  --shadow-md: 0 4px 6px rgba(0,0,0,0.1);
+  --shadow-lg: 0 10px 15px rgba(0,0,0,0.15);
+}

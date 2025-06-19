@@ -1,0 +1,56 @@
+🧭 Etapas do Projeto Jacketalks
+✅ 1. Wireframes (Esboços Estruturais)
+Baixo nível de fidelidade (preto e branco)
+
+Layout simples das páginas:
+
+Landing Page
+
+Página de Cursos
+
+Agendamento
+
+Checkout
+
+Confirmação
+
+👉 Próxima ação: Começarei a gerar esses wireframes para você agora.
+
+⏭️ 2. Mockup (Visual com Cores e Estilo da Marca)
+Inclusão da paleta de cores, tipografia e identidade visual da Jacketalks
+
+Cada tela ganha aparência próxima ao produto final
+
+Versão navegável (estática)
+
+🎯 3. Protótipo (Simulação de Navegação)
+Telas interativas como se fosse um app real
+
+Clicável (simulando fluxo: Curso → Agendamento → Pagamento → E-mail)
+
+Pode ser feito em Figma, Framer, ou simulado visualmente aqui
+
+📄 4. Documentação do Projeto
+Descrição funcional de cada tela
+
+Lógica dos fluxos de usuário
+
+Requisitos técnicos e integrações (ex: Pagar.me)
+
+API endpoints simulados (se necessário)
+
+Email flow do aluno
+
+Especificações de front e backend
+
+🧱 5. Arquitetura da Informação
+Diagrama com estrutura do sistema:
+
+Hierarquia das páginas
+
+Fluxo de navegação
+
+Comportamento dos módulos (ex: agendamento, carrinho)
+
+Facilita desenvolvimento e testes
+

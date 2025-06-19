@@ -1,0 +1,31 @@
+📄 ETAPA 2: Documentação do Projeto Jacketalks
+A documentação cobre:
+
+1. Resumo do Projeto
+Jacketalks é uma plataforma de ensino de inglês online com foco em agendamento personalizado, compra digital de cursos e metodologia conversacional.
+
+2. Objetivos do Sistema
+Oferecer cursos online de inglês organizados por nível.
+
+Permitir agendamento de aulas com professores disponíveis.
+
+Integrar um sistema de pagamento seguro (Pagar.me).
+
+Enviar confirmação automática por e-mail após matrícula.
+
+3. Funcionalidades
+Módulo	Descrição
+Landing Page	Página inicial com call-to-action e apresentação da escola.
+Página de Cursos	Lista de cursos com descrição, preço, imagem e botão de adicionar.
+Agendamento de Aula	Tela de agendamento com professor, dias e horários disponíveis.
+Checkout	Campos de pagamento + carrinho de cursos.
+Confirmação + E-mail	Tela de agradecimento e envio de e-mail automático pós-compra.
+
+4. Tecnologias Sugeridas
+Frontend: HTML5, CSS3, JavaScript puro ou Vue.js/React.js
+
+Backend: Node.js com Express (se necessário)
+
+Banco de Dados: Firebase ou PostgreSQL
+
+Integrações: API do Pagar.me e SMTP para envio de e-mails
